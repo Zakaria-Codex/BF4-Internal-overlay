@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="utils">
+      <UniqueIdentifier>{a8cfd425-f65c-4b4d-84cc-017b8472dbd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\globals">
+      <UniqueIdentifier>{abd1d3c0-9a89-46e0-93b0-9beb8b8caadb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\inputhook">
+      <UniqueIdentifier>{5be86459-8e65-48fa-9ee2-29155a1276c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\keys">
+      <UniqueIdentifier>{f0119e1e-448b-4322-ae11-20cd9be9ac54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\d3d9">
+      <UniqueIdentifier>{b93e7de4-9ae1-4de5-ab4c-af7d83f4853c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gamedata">
+      <UniqueIdentifier>{7427a671-4b1f-44dc-86d4-93dcb22a0e16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render">
+      <UniqueIdentifier>{38b746a3-8454-4014-90b1-50863444460f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\csx">
+      <UniqueIdentifier>{840e82ee-86e5-4a2b-acfe-0cf34f862564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{ae316714-4d90-4843-ba8e-8d6fc3011dbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu">
+      <UniqueIdentifier>{284ba020-6756-4e01-b13b-562e435dfc41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\imgui">
+      <UniqueIdentifier>{9793d03c-f261-48fc-a9e7-cedd96e92cd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\imgui\gui">
+      <UniqueIdentifier>{dd5c3e97-fbf2-46e8-86d0-eb4d56ef3cba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\imgui\colorpacker">
+      <UniqueIdentifier>{83b33d61-52b3-40b3-a544-028b5d62f378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\config">
+      <UniqueIdentifier>{bcdbf209-f2cd-4eeb-88b2-cb970fa781ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\setting">
+      <UniqueIdentifier>{0ed12842-5e33-4b52-89cb-218adff21b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\memory">
+      <UniqueIdentifier>{f31c7bd9-3273-49d3-b052-c6e2df30ae21}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\stb_rect_pack.h">
+      <Filter>menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\stb_textedit.h">
+      <Filter>menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\stb_truetype.h">
+      <Filter>menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\examples\directx9_example\imgui_impl_dx9.h">
+      <Filter>menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\Gui.h">
+      <Filter>menu\imgui\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="CSX.h">
+      <Filter>utils\csx</Filter>
+    </ClInclude>
+    <ClInclude Include="CSX_Cvar.h">
+      <Filter>utils\csx</Filter>
+    </ClInclude>
+    <ClInclude Include="CSX_XorStr.h">
+      <Filter>utils\csx</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>menu\config</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration.hpp">
+      <Filter>menu\config</Filter>
+    </ClInclude>
+    <ClInclude Include="TEXT.h">
+      <Filter>menu\config</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>utils\globals</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHook.h">
+      <Filter>utils\inputhook</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMan.h">
+      <Filter>utils\keys</Filter>
+    </ClInclude>
+    <ClInclude Include="direct3d.h">
+      <Filter>utils\d3d9</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>menu\setting</Filter>
+    </ClInclude>
+    <ClInclude Include="SetupColor.h">
+      <Filter>menu\setting</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>gamedata</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>gamedata</Filter>
+    </ClInclude>
+    <ClInclude Include="IMem.h">
+      <Filter>utils\memory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>menu\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>menu\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\examples\directx9_example\imgui_impl_dx9.cpp">
+      <Filter>menu\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\Gui.cpp">
+      <Filter>menu\imgui\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="CSX_Cvar.cpp">
+      <Filter>utils\csx</Filter>
+    </ClCompile>
+    <ClCompile Include="Configuration.cpp">
+      <Filter>menu\config</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>utils\globals</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHook.cpp">
+      <Filter>utils\inputhook</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMan.cpp">
+      <Filter>utils\keys</Filter>
+    </ClCompile>
+    <ClCompile Include="direct3d.cpp">
+      <Filter>utils\d3d9</Filter>
+    </ClCompile>
+    <ClCompile Include="imguicolorpicker.cpp">
+      <Filter>menu\imgui\colorpacker</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="entry.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
